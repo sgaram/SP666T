@@ -337,7 +337,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔══════════════════════════════╗" + "\n" + \
-                  "      ◄]·✪ C  H  E  ✪·[►" + "\n" + \
+                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
                   "     ◄]·✪·Menu·✪·[►" + "\n" + \
@@ -383,7 +383,7 @@ def help():
                   "╠❂➣ " + key + "Mykey\n" + \
                   "╠❂➣ " + key + "Resetkey\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Hiburan·✪·[►" + "\n" + \
+                  "     ✪·Hiburan·✪" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Musik:「Judul Lagu」\n" + \
                   "╠❂➣ " + key + "Musik2:「Judul Lagu」\n" + \
@@ -404,7 +404,7 @@ def help():
                   "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂➣ " + key + "Spamcall\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Protect·✪·[►" + "\n" + \
+                  "     ✪·Protect·✪" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Notag「on/off」\n" + \
                   "╠❂➣ " + key + "Allpro「on/off」\n" + \
@@ -414,7 +414,7 @@ def help():
                   "╠❂➣ " + key + "Protectcancel「on/off」\n" + \
                   "╠❂➣ " + key + "Protectinvite「on/off」\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Settings·✪·[►" + "\n" + \
+                  "     ✪·Settings·✪" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Unsend「on/off」\n" + \
                   "╠❂➣ " + key + "Jointicket「on/off」\n" + \
@@ -428,7 +428,7 @@ def help():
                   "╠❂➣ " + key + "Simi「on/off」\n" + \
                   "╠❂➣ " + key + "Autoleave「on/off」\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Admin·✪·[►" + "\n" + \
+                  "     ✪·Admin·✪" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Admin:on\n" + \
                   "╠❂➣ " + key + "Admin:delete\n" + \
@@ -448,10 +448,10 @@ def help():
                   "╠❂➣ " + key + "Listprotect\n" + \
                   "╠❂➣ Ketik「 Refresh 」Jika Sudah\n╠❂➣ Menggunakan Command Diatas...\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ◄]·✪  C  H  E  ✪·[►" + "\n" + \
+                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                  "◄]·✪line.me/ti/p/~sepriche✪·[►" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage
     
@@ -461,10 +461,10 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔══════════════════════════════╗" + "\n" + \
-                  "        C   H   E   " + "\n" + \
+                  "     ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣  " + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·BOT·✪·[►" + "\n" + \
+                  "     ✪·BOT·✪" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Mytoken\n" + \
                   "╠❂➣ " + key + "Cek sider\n" + \
@@ -502,7 +502,7 @@ def helpbot():
                   "╠❂➣ " + key + "Remove chat\n" + \
 				  "╠❂➣ " + key + "Leave:「Namagrup」\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Blacklist·✪·[►" + "\n" + \
+                  "     ✪·Blacklist·✪" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Blc\n" + \
                   "╠❂➣ " + key + "Ban:on\n" + \
@@ -518,20 +518,20 @@ def helpbot():
                   "╠❂➣ " + key + "Clearban\n" + \
                   "╠❂➣ " + key + "Refresh\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ◄]·✪ c   h   e ✪·[►" + "\n" + \
+                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                  "◄]·✪line.me/ti/p/~sepriche" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage1
     
 def infomeme():
     helpMessage2 = """
 ╔══════════════════════════════╗
-       ◄]·✪Aditmadzs✪·[►
+       ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ 
 ╚══════════════════════════════╝
 ╔══════════════════════════════╗
-    ◄]·✪·List Meme·✪·[►
+    ✪·List Meme·✪
 ╠══════════════════════════════╝
 ╠❂➣ Buzz
 ╠❂➣ Spongebob
@@ -562,17 +562,17 @@ def infomeme():
 ╠❂➣ contoh:
 ╠❂➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════════════════╗
-      ◄]·✪Aditmadzs✪·[►
+      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ 
 ╠══════════════════════════════╝
 ╠══════════════════════════════╗
-◄]·✪line.me/ti/p/~adit_cmct✪·[►
+◄]·✪line.me/ti/p/~sepriche
 ╚══════════════════════════════╝
 """
     return helpMessage2
     
 def translate():
     helpTranslate =    "╔══════════════════════════════╗" + "\n" + \
-                       "     🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                       "     ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
                        "╚══════════════════════════════╝" + "\n" + \
                        "╔══════════════════════════════╗" + "\n" + \
                        "     ◄]·✪·Translate·✪·[►" + "\n" + \
@@ -689,10 +689,10 @@ def translate():
                        "╠❂➣ fil : Filipino" + "\n" + \
                        "╠❂➣ he : Hebrew" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "  Contoh: tr-en Aditmadzs" + "\n" + \
+                       "  Contoh: tr sepriche" + "\n" + \
                        "╠══════════════════════════════╝" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                       "◄]·✪line.me/ti/p/~sepriche" + "\n" + \
                        "╚══════════════════════════════╝"
     return helpTranslate
 
@@ -1153,7 +1153,7 @@ def bot(op):
                    for mention in mentionees:
                         if mention ['M'] in Bots:
                            aditmadzs.sendMessage(msg.to, wait["Respontag"])
-                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"21715710","STKPKGID":"9662","STKVER":"2"}, contentType=7)
+                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"72417427","STKPKGID":"4351989","STKVER":"1"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:
@@ -1166,7 +1166,7 @@ def bot(op):
                            plihth = random.choice(idth)
                            jenis = ["5","6","7","8"]
                            plihjenis = random.choice(jenis)
-                           aditmadzs.sendMessage(msg.to, "Yang suka ngetag minta di gift yaa!?\nCek di chat, udah aku gift tuh...")
+                           aditmadzs.sendMessage(msg.to, "sukses send gift\n😛😛😛.")
                            aditmadzs.sendMessage(msg._from, None, contentMetadata={"PRDID":plihth,"PRDTYPE":"THEME","MSGTPL":plihjenis}, contentType=9)
                            break                       
                if 'MENTION' in msg.contentMetadata.keys() != None:
@@ -1176,13 +1176,13 @@ def bot(op):
                    mentionees = mention['MENTIONEES']
                    for mention in mentionees:
                         if mention ['M'] in Bots:
-                           aditmadzs.sendMessage(msg.to, "Jangan tag saya....")
+                           aditmadzs.sendMessage(msg.to, "oit...")
                            aditmadzs.kickoutFromGroup(msg.to, [msg._from])
                            break
                if msg.contentType == 7:
                  if wait["sticker"] == True:
                     msg.contentType = 0
-                    aditmadzs.sendMessage(msg.to,"「Cek ID Sticker」\n🐚 STKID : " + msg.contentMetadata["STKID"] + "\n⏩ STKPKGID : " + msg.contentMetadata["STKPKGID"] + "\n⏩ STKVER : " + msg.contentMetadata["STKVER"]+ "\n\n「Link Sticker」" + "\nline://shop/detail/" + msg.contentMetadata["STKPKGID"])
+                    aditmadzs.sendMessage(msg.to,"「Cek ID Sticker」\n🐚 STKID : " + msg.contentMetadata["STKID"] + "\n✯͜͡❂➣  STKPKGID : " + msg.contentMetadata["STKPKGID"] + "\n✯͜͡❂➣  STKVER : " + msg.contentMetadata["STKVER"]+ "\n\n「Link Sticker」" + "\nline://shop/detail/" + msg.contentMetadata["STKPKGID"])
                if msg.contentType == 13:
                  if wait["contact"] == True:
                     msg.contentType = 0
@@ -1191,7 +1191,7 @@ def bot(op):
                         contact = aditmadzs.getContact(msg.contentMetadata["mid"])
                         path = aditmadzs.getContact(msg.contentMetadata["mid"]).picturePath
                         image = 'http://dl.profile.line.naver.jp'+path
-                        aditmadzs.sendMessage(msg.to,"⏩ Nama : " + msg.contentMetadata["displayName"] + "\n⏩ MID : " + msg.contentMetadata["mid"] + "\n⏩ Status : " + contact.statusMessage + "\n⏩ Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
+                        aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Nama : " + msg.contentMetadata["displayName"] + "\n✯͜͡❂➣  MID : " + msg.contentMetadata["mid"] + "\n✯͜͡❂➣  Status : " + contact.statusMessage + "\n✯͜͡❂➣  Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
                         aditmadzs.sendImageWithURL(msg.to, image)
 
         if op.type == 25 or op.type == 26:
@@ -1239,7 +1239,7 @@ def bot(op):
                         contact = aditmadzs.getContact(msg.contentMetadata["mid"])
                         path = aditmadzs.getContact(msg.contentMetadata["mid"]).picturePath
                         image = 'http://dl.profile.line.naver.jp'+path
-                        aditmadzs.sendMessage(msg.to,"⏩ Nama : " + msg.contentMetadata["displayName"] + "\n⏩ MID : " + msg.contentMetadata["mid"] + "\n⏩ Status : " + contact.statusMessage + "\n⏩ Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
+                        aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Nama : " + msg.contentMetadata["displayName"] + "\n✯͜͡❂➣  MID : " + msg.contentMetadata["mid"] + "\n✯͜͡❂➣  Status : " + contact.statusMessage + "\n✯͜͡❂➣  Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
                         aditmadzs.sendImageWithURL(msg.to, image)
 #===========ADD BOT============#
                if msg.contentType == 13:
@@ -1258,7 +1258,7 @@ def bot(op):
                         aditmadzs.sendMessage(msg.to,"Berhasil menghapus dari anggota bot")
                     else:
                         wait["dellbots"] = True
-                        aditmadzs.sendMessage(msg.to,"Contact itu bukan anggota Aditmadzs BOT")
+                        aditmadzs.sendMessage(msg.to,"Contact itu bukan anggota sepri BOT")
 #===========ADD STAFF============#
                  if msg._from in admin:
                   if wait["addstaff"] == True:
@@ -1293,7 +1293,7 @@ def bot(op):
                         aditmadzs.sendMessage(msg.to,"Berhasil menghapus dari admin")
                     else:
                         wait["delladmin"] = True
-                        aditmadzs.sendMessage(msg.to,"Contact itu bukan admin")
+                        aditmadzs.sendMessage(msg.to,"Contact itu jago desah")
 #===========ADD BLACKLIST============#
                  if msg._from in admin:
                   if wait["wblacklist"] == True:
@@ -1432,43 +1432,43 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃          🐚 S T A T U S 🐚\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
-                                if wait["unsend"] == True: md+="┃┃🍁 ✔️ Unsend「ON」\n"
-                                else: md+="┃┃🍁 ✖ Unsend「OFF」\n"                                
-                                if wait["sticker"] == True: md+="┃┃🍁 ✔️ Sticker「ON」\n"
-                                else: md+="┃┃🍁 ✖ Sticker「OFF」\n"
-                                if wait["contact"] == True: md+="┃┃🍁 ✔️ Contact「ON」\n"
-                                else: md+="┃┃🍁 ✖ Contact「OFF」\n"
-                                if wait["talkban"] == True: md+="┃┃🍁 ✔️ Talkban「ON」\n"
-                                else: md+="┃┃🍁 ✖ Talkban「OFF」\n"
-                                if wait["Mentionkick"] == True: md+="┃┃🍁 ✔️ Notag「ON」\n"
-                                else: md+="┃┃🍁 ✖ Notag「OFF」\n"
-                                if wait["detectMention"] == True: md+="┃┃🍁 ✔️ Respon「ON」\n"
-                                else: md+="┃┃🍁 ✖ Respon「OFF」\n"
-                                if wait["Mentiongift"] == True: md+="┃┃🍁 ✔️ Respongift「ON」\n"
-                                else: md+="┃┃🍁 ✖ Respongift「OFF」\n"                                
-                                if wait["autoJoin"] == True: md+="┃┃🍁 ✔️ Autojoin「ON」\n"
-                                else: md+="┃┃🍁 ✖ Autojoin「OFF」\n"
-                                if settings["autoJoinTicket"] == True: md+="┃┃🍁 ✔️ Jointicket「ON」\n"
-                                else: md+="┃┃🍁 ✖ Jointicket「OFF」\n"                                
-                                if wait["autoAdd"] == True: md+="┃┃🍁 ✔️ Autoadd「ON」\n"
-                                else: md+="┃┃🍁 ✖ Autoadd「OFF」\n"
-                                if msg.to in welcome: md+="┃┃🍁 ✔️ Welcome「ON」\n"
-                                else: md+="┃┃🍁 ✖ Welcome「OFF」\n"
-                                if msg.to in simisimi: md+="┃┃🍁 ✔️ Simisimi「ON」\n"
-                                else: md+="┃┃🍁 ✖ Simisimi「OFF」\n"                                
-                                if wait["autoLeave"] == True: md+="┃┃🍁 ✔️ Autoleave「ON」\n"
-                                else: md+="┃┃🍁 ✖ Autoleave「OFF」\n"
-                                if msg.to in protectqr: md+="┃┃🍁 ✔️ Protecturl「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protecturl「OFF」\n"
-                                if msg.to in protectjoin: md+="┃┃🍁 ✔️ Protectjoin「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectjoin「OFF」\n"
-                                if msg.to in protectkick: md+="┃┃🍁 ✔️ Protectkick「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectkick「OFF」\n"
-                                if msg.to in protectcancel: md+="┃┃🍁 ✔️ Protectcancel「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectcancel「OFF」\n"
-                                if msg.to in protectinvite: md+="┃┃🍁 ✔️ Protectinvite「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectinvite「OFF」\n"                                                
+                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃           ✯ S T A T U S ✯\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
+                                if wait["unsend"] == True: md+="┃┃✯✯✯ ✔️ Unsend「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Unsend「OFF」\n"                                
+                                if wait["sticker"] == True: md+="┃┃✯✯✯ ✔️ Sticker「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Sticker「OFF」\n"
+                                if wait["contact"] == True: md+="┃┃✯✯✯ ✔️ Contact「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Contact「OFF」\n"
+                                if wait["talkban"] == True: md+="┃┃✯✯✯ ✔️ Talkban「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Talkban「OFF」\n"
+                                if wait["Mentionkick"] == True: md+="┃┃✯✯✯ ✔️ Notag「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Notag「OFF」\n"
+                                if wait["detectMention"] == True: md+="┃┃✯✯✯ ✔️ Respon「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Respon「OFF」\n"
+                                if wait["Mentiongift"] == True: md+="┃┃✯✯✯ ✔️ Respongift「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Respongift「OFF」\n"                                
+                                if wait["autoJoin"] == True: md+="┃┃✯✯✯ ✔️ Autojoin「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Autojoin「OFF」\n"
+                                if settings["autoJoinTicket"] == True: md+="┃┃✯✯✯ ✔️ Jointicket「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Jointicket「OFF」\n"                                
+                                if wait["autoAdd"] == True: md+="┃┃✯✯✯ ✔️ Autoadd「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Autoadd「OFF」\n"
+                                if msg.to in welcome: md+="┃┃✯✯✯ ✔️ Welcome「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Welcome「OFF」\n"
+                                if msg.to in simisimi: md+="┃┃✯✯✯ ✔️ Simisimi「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Simisimi「OFF」\n"                                
+                                if wait["autoLeave"] == True: md+="┃┃✯✯✯ ✔️ Autoleave「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Autoleave「OFF」\n"
+                                if msg.to in protectqr: md+="┃┃✯✯✯ ✔️ Protecturl「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Protecturl「OFF」\n"
+                                if msg.to in protectjoin: md+="┃┃✯✯✯ ✔️ Protectjoin「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Protectjoin「OFF」\n"
+                                if msg.to in protectkick: md+="┃┃✯✯✯ ✔️ Protectkick「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Protectkick「OFF」\n"
+                                if msg.to in protectcancel: md+="┃┃✯✯✯ ✔️ Protectcancel「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Protectcancel「OFF」\n"
+                                if msg.to in protectinvite: md+="┃┃✯✯✯ ✔️ Protectinvite「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Protectinvite「OFF」\n"                                                
                                 aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
                                 
                         elif cmd == "status translate":
@@ -1477,16 +1477,16 @@ def bot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃ 🐚 STATUS TRANSLATE 🐚\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
-                                if msg.to in translateen: md+="┃┃🍁 ✔️ English「ON」\n"
-                                else: md+="┃┃🍁 ✖ English「OFF」\n"
-                                if msg.to in translateid: md+="┃┃🍁 ✔️ Indonesia「ON」\n"
-                                else: md+="┃┃🍁 ✖ Indonesia「OFF」\n"
-                                if msg.to in translateth: md+="┃┃🍁 ✔️ Thailand「ON」\n"
-                                else: md+="┃┃🍁 ✖ Thailand「OFF」\n"
-                                if msg.to in translatetw: md+="┃┃🍁 ✔️ Taiwan「ON」\n"
-                                else: md+="┃┃🍁 ✖ Taiwan「OFF」\n"
-                                if msg.to in translatear: md+="┃┃🍁 ✔️ Arab「ON」\n"
-                                else: md+="┃┃🍁 ✖ Arab「OFF」\n"       
+                                if msg.to in translateen: md+="┃┃✯✯✯ ✔️ English「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ English「OFF」\n"
+                                if msg.to in translateid: md+="┃┃✯✯✯ ✔️ Indonesia「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Indonesia「OFF」\n"
+                                if msg.to in translateth: md+="┃┃✯✯✯ ✔️ Thailand「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Thailand「OFF」\n"
+                                if msg.to in translatetw: md+="┃┃✯✯✯ ✔️ Taiwan「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Taiwan「OFF」\n"
+                                if msg.to in translatear: md+="┃┃✯✯✯ ✔️ Arab「ON」\n"
+                                else: md+="┃┃✯✯✯ ✖ Arab「OFF」\n"       
                                 aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")                                
 
                         elif cmd == "creator" or text.lower() == 'creator':
@@ -1500,7 +1500,7 @@ def bot(op):
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 Aditmadzs SelfBOT 1 Assist 」\n")
+                               sendMention(msg.to, sender, "「 Sepri SelfBOT 1 Assist 」\n")
                                aditmadzs.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
                         elif cmd == "me" or text.lower() == 'me':
@@ -1655,15 +1655,15 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(aditmadzs.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                ret_ += "⏩ BOT Grup Info\n"
-                                ret_ += "\n⏩ Name : {}".format(G.name)
-                                ret_ += "\n⏩ ID : {}".format(G.id)
-                                ret_ += "\n⏩ Creator : {}".format(gCreator)
-                                ret_ += "\n⏩ Created Time : {}".format(str(timeCreated))
-                                ret_ += "\n⏩ Member : {}".format(str(len(G.members)))
-                                ret_ += "\n⏩ Pending : {}".format(gPending)
-                                ret_ += "\n⏩ Qr : {}".format(gQr)
-                                ret_ += "\n⏩ Ticket : {}".format(gTicket)
+                                ret_ += "✯͜͡❂➣  BOT Grup Info\n"
+                                ret_ += "\n✯͜͡❂➣  Name : {}".format(G.name)
+                                ret_ += "\n✯͜͡❂➣  ID : {}".format(G.id)
+                                ret_ += "\n✯͜͡❂➣  Creator : {}".format(gCreator)
+                                ret_ += "\n✯͜͡❂➣  Created Time : {}".format(str(timeCreated))
+                                ret_ += "\n✯͜͡❂➣  Member : {}".format(str(len(G.members)))
+                                ret_ += "\n✯͜͡❂➣  Pending : {}".format(gPending)
+                                ret_ += "\n✯͜͡❂➣  Qr : {}".format(gQr)
+                                ret_ += "\n✯͜͡❂➣  Ticket : {}".format(gTicket)
                                 ret_ += ""
                                 aditmadzs.sendMessage(to, str(ret_))
                             except:
@@ -1682,8 +1682,8 @@ def bot(op):
                                 ret_ = ""
                                 for mem in G.members:
                                     no += 1
-                                    ret_ += "\n " "⏩ "+ str(no) + ". " + mem.displayName
-                                aditmadzs.sendMessage(to,"⏩ Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
+                                    ret_ += "\n " "✯͜͡❂➣  "+ str(no) + ". " + mem.displayName
+                                aditmadzs.sendMessage(to,"✯͜͡❂➣  Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
                             except: 
                                 pass
 
@@ -1699,7 +1699,7 @@ def bot(op):
                                     ki.leaveGroup(i)
                                     aditmadzs.sendMessage(msg.to,"Berhasil keluar di grup " +str(ginfo.name))
 
-                        elif cmd == "fiendlist":
+                        elif cmd == "friendlist":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                ma = ""
@@ -1889,7 +1889,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"⏩ BOT\n\n"+ma+"\nTotal「%s」BOT" %(str(len(Bots))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  BOT\n\n"+ma+"\nTotal「%s」BOT" %(str(len(Bots))))
 
                         elif cmd == "listadmin":
                           if wait["selfbot"] == True:
@@ -1912,7 +1912,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"⏩ Admin Aditmadzs BOT\n\n⏩Creator BOT:\n"+ma+"\n⏩Admin:\n"+mb+"\n⏩Staff:\n"+mc+"\n⏩Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Admin Aditmadzs BOT\n\n✯͜͡❂➣ Creator BOT:\n"+ma+"\n✯͜͡❂➣ Admin:\n"+mb+"\n✯͜͡❂➣ Staff:\n"+mc+"\n✯͜͡❂➣ Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
@@ -1952,7 +1952,7 @@ def bot(op):
                                     e = e + 1
                                     end = '\n'
                                     me += str(e) + ". " +aditmadzs.getGroup(group).name + "\n"                                    
-                                aditmadzs.sendMessage(msg.to,"⏩ BOT Protection\n\n⏩ PROTECT URL :\n"+ma+"\n⏩ PROTECT KICK :\n"+mb+"\n⏩ PROTECT JOIN :\n"+md+"\n⏩ PROTECT CANCEL:\n"+mc+"\n⏩ PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  BOT Protection\n\n✯͜͡❂➣  PROTECT URL :\n"+ma+"\n✯͜͡❂➣  PROTECT KICK :\n"+mb+"\n✯͜͡❂➣  PROTECT JOIN :\n"+md+"\n✯͜͡❂➣  PROTECT CANCEL:\n"+mc+"\n✯͜͡❂➣  PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
 
                         elif cmd == "respon":
                           if wait["selfbot"] == True:
@@ -1970,7 +1970,7 @@ def bot(op):
                                     pass
                                 
     
-                        elif cmd == "join dit":
+                        elif cmd == "masuk1":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = aditmadzs.getGroup(msg.to)
@@ -2115,7 +2115,7 @@ def bot(op):
                               try:
                                   tz = pytz.timezone("Asia/Jakarta")
                                   timeNow = datetime.now(tz=tz)
-                                  aditmadzs.sendMessage(msg.to, "Cek sider diaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
+                                  aditmadzs.sendMessage(msg.to, "Cek sider diaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"\n™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ ")
                                   del cctv['point'][msg.to]
                                   del cctv['sidermem'][msg.to]
                                   del cctv['cyduk'][msg.to]
@@ -2132,7 +2132,7 @@ def bot(op):
                                   tz = pytz.timezone("Asia/Jakarta")
                                   timeNow = datetime.now(tz=tz)
                                   cctv['cyduk'][msg.to]=False
-                                  aditmadzs.sendMessage(msg.to, "Cek sider dinonaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
+                                  aditmadzs.sendMessage(msg.to, "Cek sider dinonaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"\n™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ ")
                               else:
                                   aditmadzs.sendMessage(msg.to, "Sudak tidak aktif")
 
@@ -4160,7 +4160,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"⏩ Blacklist User\n\n"+ma+"\nTotal「%s」Blacklist User" %(str(len(wait["blacklist"]))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Blacklist User\n\n"+ma+"\nTotal「%s」Blacklist User" %(str(len(wait["blacklist"]))))
 
                         elif cmd == "talkbanlist" or text.lower() == 'talkbanlist':
                           if wait["selfbot"] == True:
@@ -4174,7 +4174,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"⏩ Talkban User\n\n"+ma+"\nTotal「%s」Talkban User" %(str(len(wait["Talkblacklist"]))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Talkban User\n\n"+ma+"\nTotal「%s」Talkban User" %(str(len(wait["Talkblacklist"]))))
 
                         elif cmd == "blc" or text.lower() == 'blc':
                           if wait["selfbot"] == True:
