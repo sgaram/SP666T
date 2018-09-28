@@ -361,7 +361,7 @@ def help():
                   "╠❂➣ " + key + "Respon\n" + \
                   "╠❂➣ " + key + "Speed/Sp\n" + \
                   "╠❂➣ " + key + "Sprespon\n" + \
-                  "╠❂➣ " + key + "Tagall\n" + \
+                  "╠❂➣ " + key + "Tag.\n" + \
                   "╠❂➣ " + key + "Masuk1\n" + \
                   "╠❂➣ " + key + "Assist join\n" + \
                   "╠❂➣ " + key + "Ginfo\n" + \
@@ -999,8 +999,8 @@ def bot(op):
                         siderMembers(op.param1, [op.param2])
                         contact = aditmadzs.getContact(op.param2)
                         image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                        aditmadzs.sendImageWithURL(op.param1, image)
-                        aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"22140090","STKPKGID":"1677668","STKVER":"1"}, contentType=7)                       
+                        aditmadzs.sendImageWithURL(op.param1, image)                        
+                        
                     
         if op.type == 65:
             if wait["unsend"] == True:
@@ -1433,62 +1433,62 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃           ✯ S T A T U S ✯\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
-                                if wait["unsend"] == True: md+="┃┃✯✯✯ [√] Unsend「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Unsend「OFF」\n"                                
-                                if wait["sticker"] == True: md+="┃┃✯✯✯ [√] Sticker「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Sticker「OFF」\n"
-                                if wait["contact"] == True: md+="┃┃✯✯✯ [√] Contact「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Contact「OFF」\n"
-                                if wait["talkban"] == True: md+="┃┃✯✯✯ [√] Talkban「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Talkban「OFF」\n"
-                                if wait["Mentionkick"] == True: md+="┃┃✯✯✯ [√] Notag「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Notag「OFF」\n"
-                                if wait["detectMention"] == True: md+="┃┃✯✯✯ [√] Respon「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Respon「OFF」\n"
-                                if wait["Mentiongift"] == True: md+="┃┃✯✯✯ [√] Respongift「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Respongift「OFF」\n"                                
-                                if wait["autoJoin"] == True: md+="┃┃✯✯✯ [√] Autojoin「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Autojoin「OFF」\n"
-                                if settings["autoJoinTicket"] == True: md+="┃┃✯✯✯ [√] Jointicket「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Jointicket「OFF」\n"                                
-                                if wait["autoAdd"] == True: md+="┃┃✯✯✯ [√] Autoadd「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Autoadd「OFF」\n"
-                                if msg.to in welcome: md+="┃┃✯✯✯ [√] Welcome「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Welcome「OFF」\n"
-                                if msg.to in simisimi: md+="┃┃✯✯✯ [√] Simisimi「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Simisimi「OFF」\n"                                
-                                if wait["autoLeave"] == True: md+="┃┃✯✯✯ [√] Autoleave「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Autoleave「OFF」\n"
-                                if msg.to in protectqr: md+="┃┃✯✯✯ [√] Protecturl「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Protecturl「OFF」\n"
-                                if msg.to in protectjoin: md+="┃┃✯✯✯ [√] Protectjoin「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Protectjoin「OFF」\n"
-                                if msg.to in protectkick: md+="┃┃✯✯✯ [√] Protectkick「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Protectkick「OFF」\n"
-                                if msg.to in protectcancel: md+="┃┃✯✯✯ [√] Protectcancel「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Protectcancel「OFF」\n"
-                                if msg.to in protectinvite: md+="┃┃✯✯✯ [√] Protectinvite「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Protectinvite「OFF」\n"                                                
-                                aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
+                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃         ✯ ♠️ S T A T U S ♠️✯\n┃┣━━━━━━━━━━━━━━━━━━━\n"
+                                if wait["unsend"] == True: md+="┃┃☣ [ℹ️] Unsend「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Unsend「OFF」\n"                                
+                                if wait["sticker"] == True: md+="┃┃☣ [ℹ️] Sticker「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Sticker「OFF」\n"
+                                if wait["contact"] == True: md+="┃┃☣ [ℹ️] Contact「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Contact「OFF」\n"
+                                if wait["talkban"] == True: md+="┃┃☣ [ℹ️] Talkban「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Mode NIKUNG「OFF」\n"
+                                if wait["Mentionkick"] == True: md+="┃┃☣ [ℹ️] Notag「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Mode SANGE「OFF」\n"
+                                if wait["detectMention"] == True: md+="┃┃☣ [ℹ️] Respon「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Respon「OFF」\n"
+                                if wait["Mentiongift"] == True: md+="┃┃☣ [ℹ️] Respongift「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Respongift「OFF」\n"                                
+                                if wait["autoJoin"] == True: md+="┃┃☣ [ℹ️] Autojoin「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Autojoin「OFF」\n"
+                                if settings["autoJoinTicket"] == True: md+="┃┃☣ [ℹ️] Jointicket「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Jointicket「OFF」\n"                                
+                                if wait["autoAdd"] == True: md+="┃┃☣ [ℹ️] Autoadd「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Autoadd「OFF」\n"
+                                if msg.to in welcome: md+="┃┃☣ [ℹ️] Welcome「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Welcome「OFF」\n"
+                                if msg.to in simisimi: md+="┃┃☣ [ℹ️] Kickall「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Kickall「OFF」\n"                                
+                                if wait["autoLeave"] == True: md+="┃┃☣ [ℹ️] Spamgroup「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Spamgroup「OFF」\n"
+                                if msg.to in protectqr: md+="┃┃☣ [ℹ️] Protecturl「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Protecturl「OFF」\n"
+                                if msg.to in protectjoin: md+="┃┃☣ [ℹ️] Protectjoin「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Protectjoin「OFF」\n"
+                                if msg.to in protectkick: md+="┃┃☣ [ℹ️] Protectkick「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Protectkick「OFF」\n"
+                                if msg.to in protectcancel: md+="┃┃☣ [ℹ️] Protectcancel「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Protectcancel「OFF」\n"
+                                if msg.to in protectinvite: md+="┃┃☣ [ℹ️] Protectinvite「ON」\n"
+                                else: md+="┃┃☣ [⭕️] Protectinvite「OFF」\n"                                                
+                                aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
                                 
-                        elif cmd == "status translate":
+                        elif cmd == "status sepri":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃ ✯✯✯ STATUS TRANSLATE ✯✯✯\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
-                                if msg.to in translateen: md+="┃┃✯✯✯ [√] English「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] English「OFF」\n"
-                                if msg.to in translateid: md+="┃┃✯✯✯ [√] Indonesia「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Indonesia「OFF」\n"
-                                if msg.to in translateth: md+="┃┃✯✯✯ [√] Thailand「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Thailand「OFF」\n"
-                                if msg.to in translatetw: md+="┃┃✯✯✯ [√] Taiwan「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Taiwan「OFF」\n"
-                                if msg.to in translatear: md+="┃┃✯✯✯ [√] Arab「ON」\n"
-                                else: md+="┃┃✯✯✯ [X] Arab「OFF」\n"       
-                                aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")                                
+                                md = "  ┏━━━━━━━━━━━━━━━━\n┃┃ ☣ ♠️STATUS SEPRI♠️☣\n┃┣━━━━━━━━━━━━━━━━━━━\n"
+                                if msg.to in translateen: md+="┃┃☣ [ℹ️] BULY「ON」\n"
+                                else: md+="┃┃☣ [⭕️] BULY「OFF」\n"
+                                if msg.to in translateid: md+="┃┃☣ [ℹ️] SOMBONG「ON」\n"
+                                else: md+="┃┃☣ [⭕️] GENIT「OFF」\n"
+                                if msg.to in translateth: md+="┃┃☣ [ℹ️] SETIA「ON」\n"
+                                else: md+="┃┃☣ [ℹ️] SETIA「ON」\n"
+                                if msg.to in translatetw: md+="┃┃☣ [ℹ️] SETIA「ON」\n"
+                                else: md+="┃┃☣ [⭕️] NIKUNG「OFF」\n"
+                                if msg.to in translatear: md+="┃┃☣ [ℹ️] SANGE「ON」\n"
+                                else: md+="┃┃☣ [⭕️] SANGE「OFF」\n"       
+                                aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")                                
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
@@ -1828,7 +1828,7 @@ def bot(op):
                                 ki.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "togel" or text.lower() == '😆':
+                        elif cmd == "tag." or text.lower() == '😆':
                           if wait["selfbot"] == True:
                                group = aditmadzs.getGroup(msg.to)
                                nama = [contact.mid for contact in group.members]
@@ -1980,7 +1980,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Admin Aditmadzs BOT\n\n✯͜͡❂➣ Creator BOT:\n"+ma+"\n✯͜͡❂➣ Admin:\n"+mb+"\n✯͜͡❂➣ Staff:\n"+mc+"\n✯͜͡❂➣ Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Admin ❍✯͜͡ˢᵉᵖʳⁱBOT\n\n✯͜͡❂➣ Creator BOT:\n"+ma+"\n✯͜͡❂➣ Admin:\n"+mb+"\n✯͜͡❂➣ Staff:\n"+mc+"\n✯͜͡❂➣ Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
@@ -2020,7 +2020,7 @@ def bot(op):
                                     e = e + 1
                                     end = '\n'
                                     me += str(e) + ". " +aditmadzs.getGroup(group).name + "\n"                                    
-                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  BOT Protection\n\n✯͜͡❂➣  PROTECT URL :\n"+ma+"\n✯͜͡❂➣  PROTECT KICK :\n"+mb+"\n✯͜͡❂➣  PROTECT JOIN :\n"+md+"\n✯͜͡❂➣  PROTECT CANCEL:\n"+mc+"\n✯͜͡❂➣  PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  ❍✯͜͡ˢᵉᵖʳⁱBOT Protection\n\n✯͜͡❂➣  PROTECT URL :\n"+ma+"\n✯͜͡❂➣  PROTECT KICK :\n"+mb+"\n✯͜͡❂➣  PROTECT JOIN :\n"+md+"\n✯͜͡❂➣  PROTECT CANCEL:\n"+mc+"\n✯͜͡❂➣  PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
 
                         elif cmd == "respon":
                           if wait["selfbot"] == True:
@@ -2100,11 +2100,11 @@ def bot(op):
                                 get_contact_time = time.time() - get_contact_time_start
                                 aditmadzs.sendMessage(msg.to, " ❧ BOT Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
-                        elif cmd == "speed" or cmd == "sp":
+                        elif cmd == "speed." or cmd == "sp.":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               aditmadzs.sendMessage(msg.to, "Progres speed...")
+                               aditmadzs.sendMessage(msg.to, "™❍✯͜͡ˢᵉᵖʳⁱspeed...✯͜͡❂➣")
                                elapsed_time = time.time() - start
                                aditmadzs.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
 
