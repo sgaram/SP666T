@@ -2052,7 +2052,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
 
-                        elif cmd == "bye":
+                        elif cmd == "..byeme..":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = aditmadzs.getGroup(msg.to)
@@ -2100,7 +2100,7 @@ def bot(op):
                                 get_contact_time = time.time() - get_contact_time_start
                                 aditmadzs.sendMessage(msg.to, " ❧ BOT Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
-                        elif cmd == "speed." or cmd == "sp.":
+                        elif cmd == "speed" or cmd == "sp":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
