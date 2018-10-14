@@ -17,6 +17,7 @@ class Config(object):
     LINE_CERTIFICATE_PATH       = '/Q'
     LINE_CHAN_QUERY_PATH        = '/CH4'
     LINE_SQUARE_QUERY_PATH      = '/SQS1'
+    LINE_SHOP_QUERY_PATH        = '/SHOP4'
 
     CHANNEL_ID = {
         'LINE_TIMELINE': '1341209850',
@@ -24,11 +25,11 @@ class Config(object):
         'LINE_TODAY': '1518712866',
         'LINE_STORE': '1376922440',
         'LINE_MUSIC': '1381425814',
-        'LINE_BUSINESS': '1459630796'
+        'LINE_SERVICES': '1459630796'
     }
 
     APP_TYPE    = ApplicationType._VALUES_TO_NAMES[368]
-    APP_VER     = '2.1.5'
+    APP_VER     = '1.4.17'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'sepriche'
     SYSTEM_VER  = '11.2.5'
@@ -36,5 +37,6 @@ class Config(object):
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
-        self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
+        #sniff chrome headers and use those instead, because these will get you messagebanned
         self.USER_AGENT = 'Line/%s' % self.APP_VER
+        self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
