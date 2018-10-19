@@ -13,13 +13,13 @@ from googletrans import Translator
 import youtube_dl
 
 #aditmadzs = LineClient()
-aditmadzs = LineClient(authToken='Exg9HxRFsmvOvr8.yAM1Z1gOwuemMdtLYa.EhtHTiHxHUENlj/790g/wi8UuOJXKkCjafEW+swYwMI=')
+aditmadzs = LineClient(authToken='EymJCQjQI6m1MfkhlEH8.EQXpMUaZb3w28/I13CdWwa.Orree9gcry9PerdLXZ41S1BEgYIY+bB/7a+FKeNHGPU=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='Exg9HxRFsmvOwmFKAvr8O3J61gOwMdtLYa.EhtHTiHxHUENlj/790g/wi8UuOJXKkCjafEW+swYwMI=')
+ki = LineClient(authToken='Ey8X7RJlI3aEqIfv8b18.ZuSpc+nKtDACQJm5owiUca.iBU9JaA87lJkWb2Mn2rPhLKGpl20pjOfR2f4kwiWjeM=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -27,10 +27,10 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
-owner = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
-admin = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
-staff = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
+creator = ["u7aac4f9ae0330775b6f3e8b5ddc0f058"]
+owner = ["u7aac4f9ae0330775b6f3e8b5ddc0f058"]
+admin = ["u7aac4f9ae0330775b6f3e8b5ddc0f058"]
+staff = ["u7aac4f9ae0330775b6f3e8b5ddc0f058"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 KAC = [aditmadzs,ki]
@@ -337,7 +337,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔══════════════════════════════╗" + "\n" + \
-                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                  "      MARSYA " + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
                   "     ◄]·✪·Menu·✪·[►" + "\n" + \
@@ -361,9 +361,9 @@ def help():
                   "╠❂➣ " + key + "Respon\n" + \
                   "╠❂➣ " + key + "Speed/Sp\n" + \
                   "╠❂➣ " + key + "Sprespon\n" + \
-                  "╠❂➣ " + key + "Tag.\n" + \
+                  "╠❂➣ " + key + "Sepi\n" + \
                   "╠❂➣ " + key + "Masuk1\n" + \
-                  "╠❂➣ " + key + "Assist join\n" + \
+                  "╠❂➣ " + key + "Bye1\n" + \
                   "╠❂➣ " + key + "Ginfo\n" + \
                   "╠❂➣ " + key + "Open\n" + \
                   "╠❂➣ " + key + "Close\n" + \
@@ -448,10 +448,10 @@ def help():
                   "╠❂➣ " + key + "Listprotect\n" + \
                   "╠❂➣ Ketik「 Refresh 」Jika Sudah\n╠❂➣ Menggunakan Command Diatas...\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                  "      MARSYA " + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~sepriche✪·[►" + "\n" + \
+                  "◄]·✪TEAM FORCE ONE✪·[►" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage
     
@@ -461,7 +461,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔══════════════════════════════╗" + "\n" + \
-                  "     ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣  " + "\n" + \
+                  "     MARSYA  " + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
                   "     ✪·BOT·✪" + "\n" + \
@@ -518,17 +518,17 @@ def helpbot():
                   "╠❂➣ " + key + "Clearban\n" + \
                   "╠❂➣ " + key + "Refresh\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                  "      MARSYA " + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~sepriche" + "\n" + \
+                  "◄]·✪TEAM FORCE -1" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage1
     
 def infomeme():
     helpMessage2 = """
 ╔══════════════════════════════╗
-       ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ 
+       MARSYA 
 ╚══════════════════════════════╝
 ╔══════════════════════════════╗
     ✪·List Meme·✪
@@ -562,17 +562,17 @@ def infomeme():
 ╠❂➣ contoh:
 ╠❂➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════════════════╗
-      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ 
+      Nieza 
 ╠══════════════════════════════╝
 ╠══════════════════════════════╗
-◄]·✪line.me/ti/p/~sepriche
+◄]·✪FORCE ONE
 ╚══════════════════════════════╝
 """
     return helpMessage2
     
 def translate():
     helpTranslate =    "╔══════════════════════════════╗" + "\n" + \
-                       "     ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                       "     MARSYA " + "\n" + \
                        "╚══════════════════════════════╝" + "\n" + \
                        "╔══════════════════════════════╗" + "\n" + \
                        "     ◄]·✪·Translate·✪·[►" + "\n" + \
@@ -1153,8 +1153,7 @@ def bot(op):
                    for mention in mentionees:
                         if mention ['M'] in Bots:
                            aditmadzs.sendMessage(msg.to, wait["Respontag"])
-                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"16411054","STKPKGID":"1429997","STKVER":"1"}, contentType=7)
-                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"3918700","STKPKGID":"1095566","STKVER":"1"}, contentType=7)
+                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"51626532","STKPKGID":"11538","STKVER":"1"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:
@@ -1433,7 +1432,7 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃         ✯ ♠️ S T A T U S ♠️✯\n┃┣━━━━━━━━━━━━━━━━━━━\n"
+                                md = "  ┏━━━━━━━━━━━━━━━\n┃┃         ✯ ♠️ S T A T U S ♠️✯\n┃┣━━━━━━━━━━━━━━━━━━━\n"
                                 if wait["unsend"] == True: md+="┃┃☣ [ℹ️] Unsend「ON」\n"
                                 else: md+="┃┃☣ [⭕️] Unsend「OFF」\n"                                
                                 if wait["sticker"] == True: md+="┃┃☣ [ℹ️] Sticker「ON」\n"
@@ -1470,18 +1469,18 @@ def bot(op):
                                 else: md+="┃┃☣ [⭕️] Protectcancel「OFF」\n"
                                 if msg.to in protectinvite: md+="┃┃☣ [ℹ️] Protectinvite「ON」\n"
                                 else: md+="┃┃☣ [⭕️] Protectinvite「OFF」\n"                                                
-                                aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
+                                aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ━━━━━━━━━━━━━━━━━")
                                 
-                        elif cmd == "status sepri":
+                        elif cmd == "status marsya":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━\n┃┃ ☣ ♠️STATUS SEPRI♠️☣\n┃┣━━━━━━━━━━━━━━━━━━━\n"
+                                md = "  ┏━━━━━━━━━━━━━━━━\n┃┃ ☣ ♠️STATUS MARSYA♠️☣\n┃┣━━━━━━━━━━━━━━━━━━━\n"
                                 if msg.to in translateen: md+="┃┃☣ [ℹ️] BULY「ON」\n"
-                                else: md+="┃┃☣ [⭕️] BULY「OFF」\n"
+                                else: md+="┃┃☣ [ℹ️] BULY「ON」\n"
                                 if msg.to in translateid: md+="┃┃☣ [ℹ️] SOMBONG「ON」\n"
-                                else: md+="┃┃☣ [⭕️] GENIT「OFF」\n"
+                                else: md+="┃┃☣ [ℹ️] GENIT「ON」\n"
                                 if msg.to in translateth: md+="┃┃☣ [ℹ️] SETIA「ON」\n"
                                 else: md+="┃┃☣ [ℹ️] SETIA「ON」\n"
                                 if msg.to in translatetw: md+="┃┃☣ [ℹ️] SETIA「ON」\n"
@@ -1489,6 +1488,8 @@ def bot(op):
                                 if msg.to in translatear: md+="┃┃☣ [ℹ️] SANGE「ON」\n"
                                 else: md+="┃┃☣ [⭕️] SANGE「OFF」\n"       
                                 aditmadzs.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")                                
+                               # aditmadzs.sendMessage(msg.to, "❦OPEN ORDER SELBOT ONLY \n❦SELFBOT ASIST \n❦BOT PROTECT \n❦VPS LINUX (Untuk Bot Line) \n❦VPS FOREX (Untuk Hosting) \n ❦PM je ❦✯͜͡ɳเεƭαᶜʰᵉ✯͜͡❦")
+                            #    aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"83260396","STKPKGID":"12407","STKVER":"1"}, contentType=7)
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
@@ -1511,6 +1512,7 @@ def bot(op):
                                msg.contentMetadata = {'mid': msg._from}
                                aditmadzs.sendMessage(msg.to,"􀌂􀄲􏿿")
                                aditmadzs.sendMessage1(msg)
+                               aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"83260405","STKPKGID":"12407","STKVER":"1"}, contentType=7)
 
                         elif text.lower() == "mymid":
                             if msg._from in admin:
@@ -1828,7 +1830,7 @@ def bot(op):
                                 ki.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "tag." or text.lower() == '😆':
+                        elif cmd == "sepi" or text.lower() == '😆':
                           if wait["selfbot"] == True:
                                group = aditmadzs.getGroup(msg.to)
                                nama = [contact.mid for contact in group.members]
@@ -1980,7 +1982,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Admin ❍✯͜͡ˢᵉᵖʳⁱBOT\n\n✯͜͡❂➣ Creator BOT:\n"+ma+"\n✯͜͡❂➣ Admin:\n"+mb+"\n✯͜͡❂➣ Staff:\n"+mc+"\n✯͜͡❂➣ Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
+                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  Admin FORCE -1\n\n✯͜͡❂➣ Creator BOT:\n"+ma+"\n✯͜͡❂➣ Admin:\n"+mb+"\n✯͜͡❂➣ Staff:\n"+mc+"\n✯͜͡❂➣ Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
@@ -2020,7 +2022,7 @@ def bot(op):
                                     e = e + 1
                                     end = '\n'
                                     me += str(e) + ". " +aditmadzs.getGroup(group).name + "\n"                                    
-                                aditmadzs.sendMessage(msg.to,"✯͜͡❂➣  ❍✯͜͡ˢᵉᵖʳⁱBOT Protection\n\n✯͜͡❂➣  PROTECT URL :\n"+ma+"\n✯͜͡❂➣  PROTECT KICK :\n"+mb+"\n✯͜͡❂➣  PROTECT JOIN :\n"+md+"\n✯͜͡❂➣  PROTECT CANCEL:\n"+mc+"\n✯͜͡❂➣  PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
+                                aditmadzs.sendMessage(msg.to,"FORCE -1 Protection\n\n✯͜͡❂➣  PROTECT URL :\n"+ma+"\n✯͜͡❂➣  PROTECT KICK :\n"+mb+"\n✯͜͡❂➣  PROTECT JOIN :\n"+md+"\n✯͜͡❂➣  PROTECT CANCEL:\n"+mc+"\n✯͜͡❂➣  PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
 
                         elif cmd == "respon":
                           if wait["selfbot"] == True:
@@ -2052,7 +2054,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
 
-                        elif cmd == "..byeme..":
+                        elif cmd == "bye1":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = aditmadzs.getGroup(msg.to)
@@ -2184,7 +2186,7 @@ def bot(op):
                                   tz = pytz.timezone("Asia/Jakarta")
                                   timeNow = datetime.now(tz=tz)
                                   aditmadzs.sendMessage(msg.to, "✯͜͡❂➣Cek sider diaktifkan\n\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
-                                  aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"11789035","STKPKGID":"1291001","STKVER":"1"}, contentType=7)
+                                  aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"10183456","STKPKGID":"1251076","STKVER":"1"}, contentType=7)
                                   del cctv['point'][msg.to]
                                   del cctv['sidermem'][msg.to]
                                   del cctv['cyduk'][msg.to]
