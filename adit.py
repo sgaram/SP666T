@@ -853,48 +853,21 @@ def bot(op):
         #                ke.sendMessage(op.param1,"Hai " + str(ginfo.name))
 
         if op.type == 13:
-            if op.param2 in wait["blacklist"]:
-                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                    try:
-                        aditmadzs.cancelGroupInvitation(op.param1,[op.param3])
-                        ki.cancelGroupInvitation(op.param1,[op.param3])
-                        kk.cancelGroupInvitation(op.param1,[op.param3])
-                        kc.cancelGroupInvitation(op.param1,[op.param3])
-                        ke.cancelGroupInvitation(op.param1,[op.param3])
-        	
-        if op.type == 13:
             if op.param1 in protectinvite:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                    wait["blacklist"][op.param2] = True
                     try:
                         group = aditmadzs.getGroup(op.param1)
                         gMembMids = [contact.mid for contact in group.invitee]
                         for _mid in gMembMids:
-                            aditmadzs.cancelGroupInvitation(op.param1,[_mid])
-                            ke.kickoutFromGroup(op.param1,[op.param2])
+                            random.choice(KAC).cancelGroupInvitation(op.param1,[_mid])
                     except:
                         try:
                             group = ki.getGroup(op.param1)
                             gMembMids = [contact.mid for contact in group.invitee]
                             for _mid in gMembMids:
-                                ki.cancelGroupInvitation(op.param1,[_mid])
-                                kk.kickoutFromGroup(op.param1,[op.param2])
+                                random.choice(KAC).cancelGroupInvitation(op.param1,[_mid])
                         except:
-                            try:
-                                group = kk.getGroup(op.param1)
-                                gMembMids = [contact.mid for contact in group.invitee]
-                                for _mid in gMembMids:
-                                    kk.cancelGroupInvitation(op.param1,[_mid])
-                                    kc.kickoutFromGroup(op.param1,[op.param2])
-                            except:
-                                try:
-                                    group = kc.getGroup(op.param1)
-                                    gMembMids = [contact.mid for contact in group.invitee]
-                                    for _mid in gMembMids:
-                                        kc.cancelGroupInvitation(op.param1,[_mid])
-                                        ke.kickoutFromGroup(op.param1,[op.param2])
-                                except:
-                                    pass
+                            pass
 
         if op.type == 15:
             if op.param1 in welcome:
@@ -908,20 +881,29 @@ def bot(op):
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
+                random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
+            else:
+                pass
+
+        if op.type == 17:
+            if op.param1 in welcome:
+                if op.param2 in Bots:
+                    pass
+                ginfo = aditmadzs.getGroup(op.param1)
+                contact = aditmadzs.getContact(op.param2)
+                image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
+                welcomeMembers(op.param1, [op.param2])
+                aditmadzs.sendImageWithURL(op.param1, image)
+
+        if op.type == 17:
+            if op.param1 in protectjoin:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                    wait["blacklist"][op.param2] = True
                     try:
-                        ki.kickoutFromGroup(op.param1,[op.param2])
+                        if op.param3 not in wait["blacklist"]:
+                        	ki.kickoutFromGroup(op.param1,[op.param2])
                     except:
-                        try:
-                            kk.kickoutFromGroup(op.param1,[op.param2])
-                        except:
-                            try:
-                                kc.kickoutFromGroup(op.param1,[op.param2])
-                            except:
-                                try:
-                                    ke.kickoutFromGroup(op.param1,[op.param2])
-                                except:
-                                    aditmadzs.kickoutFromGroup(op.param1,[op.param2])
+                        pass
 
         if op.type == 17:
             if op.param1 in welcome:
