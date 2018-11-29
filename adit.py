@@ -723,17 +723,6 @@ def bot(op):
     try:
         if op.type == 0:
             return
-        
-        if op.type == 11:
-            if op.param2 in wait["blacklist"]:
-                try:
-                    if aditmadzs.getGroup(op.param1).preventedJoinByTicket == False:
-                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                            aditmadzs.reissueGroupTicket(op.param1)
-                            X = aditmadzs.getGroup(op.param1)
-                            X.preventedJoinByTicket = True
-                            aditmadzs.updateGroup(X)
-                            random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
 
         if op.type == 11:
             if op.param1 in protectqr:
@@ -793,7 +782,7 @@ def bot(op):
                                                 random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
                                     except:
                                         pass
-                                                
+
         if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
