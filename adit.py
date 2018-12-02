@@ -34,7 +34,7 @@ kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 kb = LineClient(authToken='TOKEN')
 kb.log("Auth Token : " + str(kb.authToken))
-channel4 = LineChannel(ke)
+channel4 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
 sw = LineClient(authToken='TOKEN')
@@ -2493,14 +2493,25 @@ def bot(op):
                                     me += str(e) + ". " +aditmadzs.getGroup(group).name + "\n"                                    
                                 aditmadzs.sendMessage(msg.to,"♪͜͡◈☬➤️  BOT Protection\n\n♪͜͡◈☬➤️  PROTECT URL :\n"+ma+"\n♪͜͡◈☬➤️  PROTECT KICK :\n"+mb+"\n♪͜͡◈☬➤️  PROTECT JOIN :\n"+md+"\n♪͜͡◈☬➤️  PROTECT CANCEL:\n"+mc+"\n♪͜͡◈☬➤️  PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
 
+                        elif cmd == ".stay":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                                aditmadzs.sendMessage(msg.to,"stay")
+                                ki.sendMessage(msg.to,"stay")
+                                kk.sendMessage(msg.to,"stay")
+                                kc.sendMessage(msg.to,"stay")
+                                kb.sendMessage(msg.to,"stay")
+                                sw.sendMessage(msg.to,"stay")
+
                         elif cmd == "respon":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                                ki.sendMessage(msg.to,stay)
-                                kk.sendMessage(msg.to,stay)
-                                kc.sendMessage(msg.to,stay)
-                                kb.sendMessage(msg.to,stay)
-                                sw.sendMessage(msg.to,stay)
+                                aditmadzs.sendMessage(msg.to,responsename1)
+                                ki.sendMessage(msg.to,responsename2)
+                                kk.sendMessage(msg.to,responsename3)
+                                kc.sendMessage(msg.to,responsename4)
+                                kb.sendMessage(msg.to,responsename5)
+                                sw.sendMessage(msg.to,responsename6)
 
                         elif cmd == "invite":
                           if wait["selfbot"] == True:
